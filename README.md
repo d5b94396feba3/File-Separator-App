@@ -8,6 +8,7 @@
   * from tkinter.filedialog import askdirectory
 
 ### Usage:
-  * ```$ python window.py```
+  * ```$ python window.py``` or run window.exe 
+  * put window.exe in the `File-separator-App` folder.
   * Open specific folder then click the `Seperate button`
  
