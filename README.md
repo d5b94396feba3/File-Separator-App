@@ -1,5 +1,5 @@
 # File Seperator App
-![Screen shot](fileSeperator.png)
+![Screen shot](fileSeparator.png)
 ## Dependencies:
   * import os
   * import shutil
