@@ -9,6 +9,6 @@
 
 ### Usage:
   * ```$ python window.py``` or run window.exe 
-  * put window.exe in the `File-separator-App` folder.
+  * put window.exe in the `File-Separator-App` folder.
   * Open specific folder then click the `Seperate button`
  
