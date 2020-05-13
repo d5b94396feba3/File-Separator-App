@@ -1,5 +1,6 @@
 # File Seperator App
-![Screen shot](fileSeparator.png){ width=50% }
+<img src="fileSeparator.png" width="50" height="50">
+
 ## Dependencies:
   * import os
   * import shutil
