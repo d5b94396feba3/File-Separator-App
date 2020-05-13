@@ -1,5 +1,5 @@
 # File Seperator App
-<img src="fileSeparator.png" width="50" height="50">
+<img src="assets/fileSeparator.png" width="50%" height="50%">
 
 ## Dependencies:
   * import os
