@@ -1,7 +1,6 @@
 import os
 import shutil
 
-# Automatic File Seperator from Folder Using Python 
 def createFolder(folder,path):
    if not os.path.exists(f"{path}/{folder}"):
       os.makedirs(f"{path}/{folder}")
@@ -17,7 +16,7 @@ def sumList():
    svalue=(cnt_list['cnt_img']+cnt_list['cnt_docs']+cnt_list['cnt_media']+
               cnt_list['cnt_exe']+cnt_list['cnt_zip']+cnt_list['cnt_bat']+
               cnt_list['cnt_dat']+cnt_list['cnt_js']+cnt_list['cnt_java']+
-              cnt_list['cnt_others'])
+              cnt_list['cnt_others']+cnt_list['cnt_html'])
    return svalue
 
 def initCount():
@@ -135,7 +134,7 @@ def runSeperator(files, path):
       cnt_html=len(html_file)
       cnt_list['cnt_html']=cnt_html
       createFolder('Html-File',path)
-      move("Html-File",java_file,path)
+      move("Html-File",html_file,path)
 
    others=[]
    for file in files:

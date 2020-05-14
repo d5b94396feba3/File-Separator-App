@@ -31,6 +31,7 @@ def OpenFolder():
     fname=folder_name
     entry_path.delete(0, END)
     entry_path.insert(0,folder_name)
+    total_cnt=separator.initCount()
 
 def close_window (): 
     print('Completed shutdown')
@@ -88,9 +89,9 @@ def showHistory():
         l8=Label(master, text=value8,font=("Helvetica", 10))
         value9="Js files : "+str(total_cnt['cnt_js'])
         l9=Label(master, text=value9,font=("Helvetica", 10))
-        value10="HTML files : "+str(total_cnt['cnt_java'])
+        value10="HTML files : "+str(total_cnt['cnt_html'])
         l10=Label(master, text=value10,font=("Helvetica", 10))
-        value11="Java files : "+str(total_cnt['cnt_html'])
+        value11="Java files : "+str(total_cnt['cnt_java'])
         l11=Label(master, text=value11,font=("Helvetica", 10))
         value12=" Others : "+str(total_cnt['cnt_others'])
         l12=Label(master, text=value12,font=("Helvetica", 10))
@@ -122,7 +123,7 @@ def showHistory():
         total_cnt=separator.initCount()
         InvalidPath()
         
-sep_btn=Button(master, text="Seperate",font=("Helvetica", 10),command=showHistory)
+sep_btn=Button(master, text="Separate",font=("Helvetica", 10),command=showHistory)
 sep_btn.grid(row=3)
 
 def InvalidPath():
