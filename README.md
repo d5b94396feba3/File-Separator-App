@@ -1,4 +1,6 @@
 # File Seperator App
+A desktop app for file management in particular directory which is separating various extension files from source folder to specific folder using Python.
+
 <img src="assets/fileSeparator.png" width="50%" height="50%">
 
 ## Dependencies:
