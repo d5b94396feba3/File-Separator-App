@@ -2,7 +2,7 @@
 A desktop app for file management in particular directory which is separating various extension files from source folder to specific folder using Python.
 # Demo
 Youtube link: https://www.youtube.com/watch?v=El_Sx1dvNJc
-<p>Screenshot</p>
+<p>[Screenshot]</p>
 <img src="assets/fileSeparator.png" width="50%" height="50%">
 
 ## Dependencies:
