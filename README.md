@@ -1,5 +1,5 @@
 # File Seperator App
-A desktop app for file management in particular directory which is separating various extension files from source folder to specific folder using Python.
+A simple desktop app for file management in particular directory which is separating various extension files from source folder to specific folder based on the file extensions using python tkinter package.
 # Demo
 Youtube link: https://www.youtube.com/watch?v=El_Sx1dvNJc
 <p>[Screenshot]</p>
